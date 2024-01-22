@@ -1,0 +1,134 @@
+.logo{
+    background: rgb(0, 181, 130);
+}
+.logo img{
+    width: 200px;
+    height: 150px;
+}
+
+.logo h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 45px;
+    transform: translateY(-100%);
+    color: #fff;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    min-width: 180px;
+}
+
+.card{
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+}
+
+.card img{
+    width: 100%;
+    height: 310px;
+}
+
+.card .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card .contenido p{
+    line-height: 1.5;
+    color: #6a6a6a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card .contenido h3{
+    line-height: 2;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card .contenido a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 5px;
+    transition: all 400ms ease
+}
+
+.card .contenido a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
+
+.container-2{
+    width: 100%;
+    display: flex;
+    min-width: 180px;
+}
+
+.card-2{
+    width: 50%;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card-2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+}
+
+.card-2 img{
+    width: 100%;
+    height: 310px;
+}
+
+.card-2 .contenido-2{
+    padding: 15px;
+    text-align: center;
+}
+
+.card-2 .contenido-2 p{
+    line-height: 1.5;
+    color: #6a6a6a;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card-2.contenido-2 h3{
+    line-height: 2;
+    margin-bottom: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card-2 .contenido-2 a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 10px;
+    color: #2fb4cc;
+    border: 1px solid #2fb4cc;
+    border-radius: 5px;
+    transition: all 400ms ease
+}
+
+.card-2 .contenido-2 a:hover{
+    background: #2fb4cc;
+    color: #fff;
+}
